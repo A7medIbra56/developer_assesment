@@ -1,0 +1,77 @@
+/* line 1, website/static/website/scss/home.scss */
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* Basic Reset */
+/* Navbar Styles */
+/* line 11, website/static/website/scss/home.scss */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px; }
+
+/* line 19, website/static/website/scss/home.scss */
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold; }
+
+/* line 25, website/static/website/scss/home.scss */
+.nav-links {
+  list-style: none;
+  display: flex; }
+
+/* line 30, website/static/website/scss/home.scss */
+.nav-links li {
+  margin-left: 20px; }
+
+/* line 34, website/static/website/scss/home.scss */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px; }
+
+/* line 40, website/static/website/scss/home.scss */
+.nav-links a:hover {
+  color: #ddd; }
+
+/* Hamburger Menu */
+/* line 45, website/static/website/scss/home.scss */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer; }
+
+/* line 51, website/static/website/scss/home.scss */
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0; }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* line 60, website/static/website/scss/home.scss */
+  .nav-links {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #333;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: none; }
+  /* line 71, website/static/website/scss/home.scss */
+  .nav-links.active {
+    display: flex; }
+  /* line 75, website/static/website/scss/home.scss */
+  .nav-links li {
+    margin: 10px 0; }
+  /* line 79, website/static/website/scss/home.scss */
+  .hamburger {
+    display: flex; } }

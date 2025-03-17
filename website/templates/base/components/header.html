@@ -1,7 +1,63 @@
 {% load i18n %}
+{% load static %}
 
 <header>
-    
-    <h1>Header</h1>
+    <nav class="menu-nav">
+        <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-menu-button-wide"></i></button>
 
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"><div class="toast-header Image-app">
+                <img src="{% static 'assets/icon/tabler_hexagon-letter-f-filled.svg' %}" alt="image">
+                <strong class="me-auto">urnee</strong>
+            </div></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Products</a>
+                        <img src="{% static 'assets/icon/iconamoon_arrow-down-2-light.svg' %}" alt="arrow-down">
+                    </li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <nav>
+        <div>
+            <div class="toast-header Image-app">
+                <img src="{% static 'assets/icon/tabler_hexagon-letter-f-filled.svg' %}" alt="image">
+                <strong class="me-auto">urnee</strong>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Products</a>
+                    <img src="{% static 'assets/icon/iconamoon_arrow-down-2-light.svg' %}" alt="arrow-down">
+                </li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="{% static 'assets/icon/search-01.svg' %}" alt="">
+            <img src="{% static 'assets/icon/shopping-cart-02.svg' %}" alt="">
+            <div>
+                Sign Up
+            </div>
+        </div>
+    </nav>
+    <div class="container_img">
+        <img class="img_1" src="{% static 'assets/img/Rectangle 23.png' %}" alt="image">
+        <img class="img_2" src="{% static 'assets/img/image 4.png' %}" alt="image">
+        <img class="img_3" src="{% static 'assets/img/image 5.png' %}" alt="image">
+</div>
 </header>

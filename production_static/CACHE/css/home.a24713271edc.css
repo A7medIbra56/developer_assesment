@@ -1,0 +1,205 @@
+/*-----start header-----*/
+/* line 2, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 7, website/static/website/scss/home.scss */
+nav {
+  max-width: 742.5px;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78.75px;
+  margin: auto; }
+
+/* line 17, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 67.5px; }
+
+/* line 23, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  list-style: none;
+  margin-bottom: 0% !important;
+  padding-left: 0% !important; }
+
+/* line 33, website/static/website/scss/home.scss */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 6.75px;
+  border-bottom: 0.844px solid transparent;
+  transition: border-bottom 0.2s ease; }
+
+/* line 41, website/static/website/scss/home.scss */
+ul li:hover {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 45, website/static/website/scss/home.scss */
+ul li:active {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 49, website/static/website/scss/home.scss */
+ul li a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 59, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 13.5px; }
+
+/* line 65, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 70, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }
+
+/* line 84, website/static/website/scss/home.scss */
+.img_1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1; }
+
+/* line 90, website/static/website/scss/home.scss */
+.img_2 {
+  position: absolute;
+  width: 469.688px;
+  height: 227.813px;
+  flex-shrink: 0;
+  top: 183.37px;
+  right: 112.5px; }
+
+/* line 98, website/static/website/scss/home.scss */
+.img_3 {
+  position: absolute;
+  top: 84.35px;
+  right: 30.38px;
+  width: 172.688px;
+  height: 307.125px;
+  flex-shrink: 0;
+  z-index: -1; }
+
+/* line 108, website/static/website/scss/home.scss */
+.hero_section {
+  max-width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 113, website/static/website/scss/home.scss */
+.hero_text {
+  max-width: 742.5px;
+  margin: auto; }
+
+/* line 117, website/static/website/scss/home.scss */
+.furniture-section {
+  margin-bottom: 114.32px; }
+  /* line 120, website/static/website/scss/home.scss */
+  .furniture-section .text-content h1 {
+    color: var(--Neutral-Title-Color, #1f2937);
+    font-family: Lato;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 35.1px */
+    margin-top: 36.72px;
+    margin-bottom: 11.25px; }
+    /* line 129, website/static/website/scss/home.scss */
+    .furniture-section .text-content h1 span {
+      color: var(--Warning-Base, #eab308);
+      font-family: Lato;
+      font-size: 29.25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; }
+  /* line 138, website/static/website/scss/home.scss */
+  .furniture-section .text-content p {
+    max-width: 213.75px;
+    color: var(--Neutral-Subtitle-2, #9ca3af);
+    font-family: Inter;
+    font-size: 10.125px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 15.188px */
+    margin-bottom: 27px; }
+  /* line 149, website/static/website/scss/home.scss */
+  .furniture-section .Get_Started_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5px;
+    width: 95px;
+    height: 29.25px;
+    padding: 7.875px 13.5px;
+    border-radius: 56.25px;
+    background: var(--Warning-Base, #eab308);
+    color: var(--Base-White, #fff);
+    font-family: Inter, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 13.5px */ }
+
+/*-----End header-----*/
+/* line 168, website/static/website/scss/home.scss */
+.products-section {
+  width: 900px;
+  padding-left: 63px;
+  margin: auto; }
+
+/* line 173, website/static/website/scss/home.scss */
+.products-title-btn {
+  width: 742.5px; }
+  /* line 175, website/static/website/scss/home.scss */
+  .products-title-btn .See_More_btn {
+    display: flex;
+    width: 79;
+    height: 27px;
+    padding: 6.75px 11.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5px;
+    border-radius: 56.25px;
+    background: var(--Warning-Base, #EAB308);
+    color: var(--Base-White, #fff);
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 13.5px */ }

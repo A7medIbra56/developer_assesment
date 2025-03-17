@@ -1,0 +1,8 @@
+/* line 4, website/static/website/scss/home.scss */
+.all-bg {
+  width: 100px;
+  height: 20px;
+  background-color: black; }
+  /* line 6, website/static/website/scss/home.scss */
+  .all-bg .hero_text {
+    background-color: aqua; }

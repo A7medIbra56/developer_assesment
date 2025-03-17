@@ -1,0 +1,55 @@
+/* line 1, website/static/website/scss/home.scss */
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/*-----*/
+/* line 8, website/static/website/scss/home.scss */
+header {
+  max-width: 900px;
+  margin: auto; }
+  /* line 11, website/static/website/scss/home.scss */
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24.75px;
+    height: 78.75px; }
+    /* line 18, website/static/website/scss/home.scss */
+    header nav img {
+      height: 40px; }
+    /* line 22, website/static/website/scss/home.scss */
+    header nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 24.75px; }
+      /* line 29, website/static/website/scss/home.scss */
+      header nav ul li {
+        display: flex;
+        align-items: center; }
+        /* line 32, website/static/website/scss/home.scss */
+        header nav ul li a {
+          text-decoration: none;
+          color: #000;
+          font-weight: 500;
+          margin-right: 5px; }
+    /* line 41, website/static/website/scss/home.scss */
+    header nav > div {
+      display: flex;
+      align-items: center;
+      gap: 24.75px; }
+      /* line 46, website/static/website/scss/home.scss */
+      header nav > div img {
+        cursor: pointer; }
+      /* line 50, website/static/website/scss/home.scss */
+      header nav > div div {
+        background: #ffcc00;
+        padding: 8px 16px;
+        border-radius: 20px;
+        color: #000;
+        font-weight: 600;
+        cursor: pointer; }

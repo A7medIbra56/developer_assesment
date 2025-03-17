@@ -1,0 +1,95 @@
+/*-----start header-----*/
+/* line 3, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 8, website/static/website/scss/home.scss */
+nav {
+  max-width: 743px;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24.75px;
+  height: 78.75px;
+  margin: auto; }
+
+/* line 19, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 67.5px; }
+
+/* line 25, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  list-style: none;
+  margin-bottom: 0% !important;
+  padding-left: 0% !important; }
+
+/* line 35, website/static/website/scss/home.scss */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 6.75px;
+  border-bottom: 0.844px solid transparent;
+  transition: border-bottom 0.2s ease; }
+
+/* line 43, website/static/website/scss/home.scss */
+ul li:hover {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 47, website/static/website/scss/home.scss */
+ul li:active {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 51, website/static/website/scss/home.scss */
+ul li a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 61, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 13.5px; }
+
+/* line 67, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 73, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }
+
+/* line 87, website/static/website/scss/home.scss */
+.container_img img {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1; }

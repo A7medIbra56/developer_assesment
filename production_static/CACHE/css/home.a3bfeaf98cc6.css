@@ -1,0 +1,99 @@
+/*-----start header-----*/
+/* line 2, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  margin: auto; }
+
+/* line 6, website/static/website/scss/home.scss */
+nav {
+  max-width: 743px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24.75px;
+  height: 78.75px;
+  margin: auto; }
+
+/* line 16, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 67.5px; }
+
+/* line 22, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  list-style: none;
+  margin-bottom: 0% !important;
+  padding-left: 0% !important; }
+
+/* line 32, website/static/website/scss/home.scss */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 6.75px;
+  border-bottom: 0.844px solid transparent;
+  transition: border-bottom 0.2s ease; }
+
+/* line 40, website/static/website/scss/home.scss */
+ul li:hover {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 44, website/static/website/scss/home.scss */
+ul li:active {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 48, website/static/website/scss/home.scss */
+ul li a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 58, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 13.5px; }
+
+/* line 64, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 70, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }
+
+/*-----End header-----*/
+/*-----start hero_section-----*/
+/* line 87, website/static/website/scss/home.scss */
+.hero_section {
+  max-width: 900px;
+  margin: auto; }
+  /* line 90, website/static/website/scss/home.scss */
+  .hero_section .hero_section {
+    width: 582.188px;
+    height: 411.188px;
+    flex-shrink: 0;
+    background-color: #eab308; }

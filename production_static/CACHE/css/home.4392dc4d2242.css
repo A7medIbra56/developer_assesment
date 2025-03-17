@@ -1,0 +1,80 @@
+/* line 1, website/static/website/scss/home.scss */
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/*-----header-----*/
+/* line 8, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  margin: auto; }
+
+/* line 12, website/static/website/scss/home.scss */
+nav {
+  max-width: 743px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24.75px;
+  height: 78.75px;
+  margin: auto; }
+
+/* line 21, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 24.75px; }
+
+/* line 26, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24.75px; }
+
+/* line 33, website/static/website/scss/home.scss */
+li {
+  display: flex;
+  align-items: center; }
+
+/* line 37, website/static/website/scss/home.scss */
+a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 46, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 24.75px; }
+
+/* line 51, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 56, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }

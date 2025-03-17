@@ -1,0 +1,380 @@
+/*-----start header-----*/
+/* line 2, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 7, website/static/website/scss/home.scss */
+nav {
+  max-width: 742.5px;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78.75px;
+  margin: auto; }
+  /* line 15, website/static/website/scss/home.scss */
+  nav strong {
+    color: var(--Neutral-Title-Color, #1f2937);
+    font-family: Roboto;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+
+/* line 25, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 67.5px; }
+
+/* line 31, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  list-style: none;
+  margin-bottom: 0% !important;
+  padding-left: 0% !important; }
+
+/* line 41, website/static/website/scss/home.scss */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 6.75px;
+  border-bottom: 0.844px solid transparent;
+  transition: border-bottom 0.2s ease; }
+
+/* line 49, website/static/website/scss/home.scss */
+ul li:hover {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 53, website/static/website/scss/home.scss */
+ul li:active {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 57, website/static/website/scss/home.scss */
+ul li a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 67, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 13.5px; }
+
+/* line 73, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 78, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }
+
+/* line 92, website/static/website/scss/home.scss */
+.img_1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1; }
+
+/* line 98, website/static/website/scss/home.scss */
+.img_2 {
+  position: absolute;
+  width: 469.688px;
+  height: 227.813px;
+  flex-shrink: 0;
+  top: 183.37px;
+  right: 112.5px; }
+
+/* line 106, website/static/website/scss/home.scss */
+.img_3 {
+  position: absolute;
+  top: 84.35px;
+  right: 30.38px;
+  width: 172.688px;
+  height: 307.125px;
+  flex-shrink: 0;
+  z-index: -1; }
+
+/* line 116, website/static/website/scss/home.scss */
+.hero_section {
+  max-width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 121, website/static/website/scss/home.scss */
+.hero_text {
+  max-width: 742.5px;
+  margin: auto; }
+
+/* line 125, website/static/website/scss/home.scss */
+.furniture-section {
+  margin-bottom: 114.32px; }
+  /* line 128, website/static/website/scss/home.scss */
+  .furniture-section .text-content h1 {
+    color: var(--Neutral-Title-Color, #1f2937);
+    font-family: Lato;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 35.1px */
+    margin-top: 36.72px;
+    margin-bottom: 11.25px; }
+    /* line 137, website/static/website/scss/home.scss */
+    .furniture-section .text-content h1 span {
+      color: var(--Warning-Base, #eab308);
+      font-family: Lato;
+      font-size: 29.25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; }
+  /* line 146, website/static/website/scss/home.scss */
+  .furniture-section .text-content p {
+    max-width: 213.75px;
+    color: var(--Neutral-Subtitle-2, #9ca3af);
+    font-family: Inter;
+    font-size: 10.125px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 15.188px */
+    margin-bottom: 27px; }
+  /* line 157, website/static/website/scss/home.scss */
+  .furniture-section .Get_Started_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5px;
+    width: 95px;
+    height: 29.25px;
+    padding: 7.875px 13.5px;
+    border-radius: 56.25px;
+    background: var(--Warning-Base, #eab308);
+    color: var(--Base-White, #fff);
+    font-family: Inter, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 13.5px */ }
+
+/*-----End header-----*/
+/*-----start products-----*/
+/* line 177, website/static/website/scss/home.scss */
+.products-section {
+  width: 900px;
+  padding: 53.81px 0 45px 63px;
+  margin: auto; }
+
+/* line 182, website/static/website/scss/home.scss */
+.products-title-btn {
+  width: 742.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  /* line 188, website/static/website/scss/home.scss */
+  .products-title-btn h2 {
+    color: var(--Neutral-Title-Color, #1f2937);
+    font-family: Lato;
+    font-size: 22.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 27px */
+    margin-bottom: 11.25px; }
+  /* line 197, website/static/website/scss/home.scss */
+  .products-title-btn p {
+    color: var(--Neutral-Subtitle-2, #9ca3af);
+    font-family: Inter;
+    font-size: 10.125px;
+    font-style: normal;
+    margin-bottom: 0%;
+    font-weight: 400;
+    line-height: 160%;
+    /* 16.2px */ }
+
+/* line 207, website/static/website/scss/home.scss */
+.products-content {
+  display: flex; }
+
+/* line 210, website/static/website/scss/home.scss */
+.See_More_btn {
+  display: flex;
+  width: 79.25px;
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  gap: 4.5px;
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */ }
+
+/* line 226, website/static/website/scss/home.scss */
+.See_More_btn img {
+  width: 11.25px;
+  height: 11.25px; }
+
+/* line 230, website/static/website/scss/home.scss */
+.products-card {
+  width: 900px;
+  height: 30px;
+  margin: auto; }
+  /* line 234, website/static/website/scss/home.scss */
+  .products-card .products-card-items {
+    margin-left: 63px;
+    width: 742.5px; }
+
+/* line 239, website/static/website/scss/home.scss */
+.products-card-items {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap; }
+
+/* line 244, website/static/website/scss/home.scss */
+.card-body {
+  overflow: hidden;
+  width: 235.5px;
+  border-radius: 13.5px;
+  position: relative;
+  border: 0.563px solid transparent;
+  box-shadow: 0px 2.25px 6.75px 0px rgba(234, 179, 8, 0.08); }
+  /* line 252, website/static/website/scss/home.scss */
+  .card-body:hover {
+    border-radius: 13.5px;
+    border: 0.563px solid var(--Neutral-Subtitle-3, #d1d5db);
+    background: #fff;
+    box-shadow: 0px 2.25px 6.75px 0px rgba(234, 179, 8, 0.08); }
+  /* line 258, website/static/website/scss/home.scss */
+  .card-body .image-container {
+    position: relative; }
+    /* line 260, website/static/website/scss/home.scss */
+    .card-body .image-container img {
+      width: 100%; }
+    /* line 264, website/static/website/scss/home.scss */
+    .card-body .image-container .favorite-icon {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      width: 27px;
+      height: 27px;
+      padding: 4.5px;
+      right: 20.25px;
+      top: 21.37px;
+      border-radius: 33.75px;
+      background: rgba(109, 109, 109, 0.15);
+      backdrop-filter: blur(56.25px); }
+    /* line 278, website/static/website/scss/home.scss */
+    .card-body .image-container .favorite-icon:hover {
+      border-radius: 33.75px;
+      background: rgba(109, 109, 109, 0.15);
+      backdrop-filter: blur(56.25px); }
+  /* line 285, website/static/website/scss/home.scss */
+  .card-body .details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 16.88px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    align-items: center; }
+    /* line 294, website/static/website/scss/home.scss */
+    .card-body .details .rating strong {
+      color: var(--Neutral-Subtitle-1, #6b7280);
+      font-family: Lato;
+      font-size: 11.25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%;
+      /* 14.625px */ }
+    /* line 303, website/static/website/scss/home.scss */
+    .card-body .details .rating h4 {
+      color: var(--Neutral-Title-Color, #1f2937);
+      font-family: Lato;
+      font-size: 13.5px;
+      margin-top: 6.75px;
+      margin-bottom: 6.75px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%;
+      /* 17.55px */ }
+    /* line 314, website/static/website/scss/home.scss */
+    .card-body .details .rating p {
+      color: var(--Warning-Base, #eab308);
+      font-family: Lato;
+      font-size: 11.25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%;
+      /* 14.625px */ }
+
+/*-----end products-----*/
+/* media queries */
+@media (min-width: 769px) {
+  /* line 329, website/static/website/scss/home.scss */
+  .menu-nav {
+    display: none; } }
+
+@media (max-width: 768px) {
+  /* line 336, website/static/website/scss/home.scss */
+  .menu-nav {
+    display: flex !important; }
+  /* line 339, website/static/website/scss/home.scss */
+  .products-section {
+    width: 250px;
+    padding: 53.81px 0 45px 63px;
+    margin: auto; }
+  /* line 344, website/static/website/scss/home.scss */
+  .products-title-btn {
+    width: 250.5px;
+    display: flex;
+    align-items: center; }
+  /* line 352, website/static/website/scss/home.scss */
+  .offcanvas-body ul {
+    display: block; }
+  /* line 357, website/static/website/scss/home.scss */
+  nav {
+    display: none; }
+  /* line 360, website/static/website/scss/home.scss */
+  .hero_text {
+    max-width: 250.5px;
+    margin: auto; }
+  /* line 364, website/static/website/scss/home.scss */
+  .img_2 {
+    display: none; }
+  /* line 367, website/static/website/scss/home.scss */
+  .img_3 {
+    display: none; }
+  /* line 370, website/static/website/scss/home.scss */
+  .img_1 {
+    width: 100%; } }

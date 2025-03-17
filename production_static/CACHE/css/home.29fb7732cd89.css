@@ -1,0 +1,42 @@
+/* line 1, website/static/website/scss/home.scss */
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 6, website/static/website/scss/home.scss */
+.brand-section {
+  width: 100%;
+  max-width: 1440px;
+  height: 122px;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px; }
+  /* line 17, website/static/website/scss/home.scss */
+  .brand-section .brand {
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    flex: 1 1 20%; }
+    @media (max-width: 768px) {
+      /* line 17, website/static/website/scss/home.scss */
+      .brand-section .brand {
+        font-size: 20px;
+        flex: 1 1 30%; } }
+    @media (max-width: 480px) {
+      /* line 17, website/static/website/scss/home.scss */
+      .brand-section .brand {
+        font-size: 16px;
+        flex: 1 1 45%; } }
+  @media (max-width: 480px) {
+    /* line 37, website/static/website/scss/home.scss */
+    .brand-section .brand {
+      flex: 1 1 33.33%; }
+    /* line 41, website/static/website/scss/home.scss */
+    .brand-section:nth-child(n+4) {
+      flex: 1 1 100%; } }

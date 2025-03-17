@@ -1,0 +1,123 @@
+/*-----start header-----*/
+/* line 2, website/static/website/scss/home.scss */
+header {
+  width: 900px;
+  position: relative;
+  margin: auto; }
+
+/* line 7, website/static/website/scss/home.scss */
+nav {
+  max-width: 743px;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24.75px;
+  height: 78.75px;
+  margin: auto; }
+
+/* line 18, website/static/website/scss/home.scss */
+nav > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 67.5px; }
+
+/* line 24, website/static/website/scss/home.scss */
+ul {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  list-style: none;
+  margin-bottom: 0% !important;
+  padding-left: 0% !important; }
+
+/* line 34, website/static/website/scss/home.scss */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 6.75px;
+  border-bottom: 0.844px solid transparent;
+  transition: border-bottom 0.2s ease; }
+
+/* line 42, website/static/website/scss/home.scss */
+ul li:hover {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 46, website/static/website/scss/home.scss */
+ul li:active {
+  border-bottom: 0.844px solid var(--Warning-Base, #eab308); }
+
+/* line 50, website/static/website/scss/home.scss */
+ul li a {
+  text-decoration: none;
+  color: var(--Neutral-Title-Color, #1f2937);
+  font-family: Inter;
+  font-size: 10.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 15.188px */ }
+
+/* line 60, website/static/website/scss/home.scss */
+nav > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 13.5px; }
+
+/* line 66, website/static/website/scss/home.scss */
+nav > div:last-child img {
+  cursor: pointer;
+  width: 13.5px;
+  height: 13.5px; }
+
+/* line 71, website/static/website/scss/home.scss */
+nav > div:last-child div {
+  border-radius: 56.25px;
+  background: var(--Warning-Base, #eab308);
+  height: 27px;
+  padding: 6.75px 11.25px;
+  justify-content: center;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 13.5px */
+  cursor: pointer; }
+
+/* line 85, website/static/website/scss/home.scss */
+.img_1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1; }
+
+/* line 91, website/static/website/scss/home.scss */
+.img_2 {
+  position: absolute;
+  width: 469.688px;
+  height: 227.813px;
+  flex-shrink: 0;
+  top: 183.37px;
+  right: 112.5px; }
+
+/* line 99, website/static/website/scss/home.scss */
+.img_3 {
+  position: absolute;
+  top: 84.35px;
+  right: 30.38px;
+  width: 172.688px;
+  height: 307.125px;
+  flex-shrink: 0;
+  z-index: -1; }
+
+/*-----End header-----*/
+/* line 109, website/static/website/scss/home.scss */
+.hero_section {
+  max-width: 900px;
+  margin: auto; }
+  /* line 113, website/static/website/scss/home.scss */
+  .hero_section .hero_text {
+    max-width: 742.5; }

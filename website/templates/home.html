@@ -22,17 +22,72 @@
 {% endblock page_js %}
 
 {% block website_body %}
-
-<div class="pages_container">
-
-    <div class="page-100">
-
-        <h1 class="hero_text">Home</h1>
-
+<!-- hero_section -->
+<section class="hero_section">
+    <div class="hero_text">
+        <div class="furniture-section">
+            <div class="text-content">
+              <h1>Furniture that reflect your <br><span> lifestyle</span></h1>
+              <p>we provide you selected and best quality materials that suitable for your dream <br> home.</p>
+            </div>
+            <div class="Get_Started_btn">
+                Get Started
+                <img src="{% static 'assets/icon/arrow-up-right-03.svg' %}" alt="image">
+            </div>
+          </div>
     </div>
-
-</div>
-
+</section>
+<section class="products-section">
+    <div class="products-title">
+        <div>
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-title-btn">    
+                <p >Shop a wide variety of furniture products to <br>
+                     suit your unique lifestyle and needs</p>
+              <div class="products-content">
+                <div class="See_More_btn">
+                  See More
+                  <img src="{% static 'assets/icon/arrow-up-right-03.svg' %}" alt="image">
+                </div>
+              </div>
+        </div>
+    </div>
+  </section>
+  <section class="products-card">
+    <div class="products-card-items">
+        {% for item in products %}
+        <div class="card-body col-xm-4">
+            <div class="image-container">
+                <img src="{{ item.image.url }}" alt="image">
+                <div class="favorite-icon">
+                    {% if item.is_favorite %}
+                        <img src="{% static 'assets/icon/favourite.svg' %}" alt="favorite">
+                    {% else %}
+                        <img src="{% static 'assets/icon/favourite-2.svg' %}" alt="not favorite">
+                    {% endif %}
+                </div>
+            </div>
+            <div class="details">
+                <div class="rating">
+                    <div class="toast-header Image-app">
+                        <img src="{% static 'assets/icon/ic_round-star.svg' %}" alt="image">
+                        <strong class="me-auto">{{ item.rating }}</strong>
+                    </div>
+                    <h4 class="product-name">{{ item.name }}</h4>
+                    <p class="price">${{ item.price }}</p>
+                </div>
+                <div>
+                    <img src="{% static 'assets/icon/add-circle.svg' %}" alt="add to cart">
+                </div>
+            </div>
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+</section>
+<!-- end_hero_section -->
 {% block additional_dom_scripts %}
 
 {% endblock additional_dom_scripts %}
